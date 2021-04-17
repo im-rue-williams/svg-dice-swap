@@ -1,0 +1,16 @@
+.hide {
+    display: none;
+  }
+  
+  .green {
+    fill: green;
+  }
+  
+  .red {
+    fill: red;
+  }
+  
+  .shift {
+    position: relative;
+    left: -103px;
+  }
