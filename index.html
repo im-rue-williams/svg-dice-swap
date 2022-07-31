@@ -4,20 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     <title>SVG Dice</title>
 </head>
 <body>    
     <!-- dice container svg -->
     <div class="dice-shell" id="dice-shell-1"></div>
-    <div class="dice-shell" id="dice-shell-2"></div>
-    
-    <input type=button value=1 onclick="renderDice(value, 'dice-shell-1')">
-    <input type=button value=2 onclick="renderDice(value, 'dice-shell-1')">
-    <input type=button value=3 onclick="renderDice(value, 'dice-shell-1')">
-    <input type=button value=4 onclick="renderDice(value, 'dice-shell-1')">
-    <input type=button value=5 onclick="renderDice(value, 'dice-shell-1')">
-    <input type=button value=6 onclick="renderDice(value, 'dice-shell-2')">
-    <script src="app.js"></script>
+    <input type=button value="Roll D6" onclick="randomRoll()">
 </body>
 </html>
